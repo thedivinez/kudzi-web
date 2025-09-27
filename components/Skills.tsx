@@ -3,7 +3,7 @@ import SpotlightCard from './SportLightCard'
 
 const Skills = () => {
     return (
-        <section id="skills" className="bg-slate-800/50 px-4 sm:px-6 lg:px-8 py-16 scroll-mt-10" >
+        <section id="skills" className="flex flex-col mt-10 px-4 sm:px-6 lg:px-8 py-16" >
             <div className="mx-auto max-w-7xl">
                 <div className="mb-12 text-center">
                     <h2 className="mb-4 font-bold text-white text-3xl md:text-4xl">Skills</h2>

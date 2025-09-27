@@ -3,7 +3,7 @@ import SpotlightCard from './SportLightCard'
 
 const Education = () => {
     return (
-        <section id="education" className="bg-transparent mt-24 px-4 sm:px-6 lg:px-8 scroll-mt-10" >
+        <section id="education" className="bg-transparent mt-20 px-4 sm:px-6 lg:px-8 pb-3" >
             <div className="mx-auto max-w-7xl">
                 <div className="mb-12 text-center">
                     <h2 className="mb-4 font-bold text-white text-3xl md:text-4xl">Education</h2>

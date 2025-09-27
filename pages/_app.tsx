@@ -3,9 +3,9 @@ import type { AppProps } from "next/app";
 import LiquidEther from "@/components/LiquidEther";
 
 export default function App({ Component, pageProps }: AppProps) {
-  return <div className="relative w-full h-screen min-h-full">
+  return <div className="relative flex flex-col w-screen h-screen min-h-full">
     <LiquidEther
-      className="top-0 bottom-0 absolute flex w-full h-[100vh]"
+      className="top-0 right-0 bottom-0 left-0 absolute flex w-full h-full"
       colors={['#5227FF', '#FF9FFC', '#B19EEF']}
       mouseForce={20}
       cursorSize={100}
@@ -16,7 +16,7 @@ export default function App({ Component, pageProps }: AppProps) {
       resolution={0.5}
       isBounce={false}
       autoDemo={true}
-      autoSpeed={0.5}
+      autoSpeed={0.3}
       autoIntensity={2.2}
       takeoverDuration={0.25}
       autoResumeDelay={3000}

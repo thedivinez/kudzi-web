@@ -4,7 +4,7 @@ import { Award, ExternalLink } from 'lucide-react'
 
 const Certifications = () => {
     return (
-        < section id="certifications" className="bg-slate-800/50 px-4 sm:px-6 lg:px-8 py-16 scroll-mt-10" >
+        < section id="certifications" className="flex flex-col mt-10 px-4 sm:px-6 lg:px-8 py-16" >
             <div className="mx-auto max-w-7xl">
                 <div className="mb-12 text-center">
                     <h2 className="mb-4 font-bold text-white text-3xl md:text-4xl">Certifications</h2>

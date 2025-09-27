@@ -1,10 +1,9 @@
-import DarkVeil from '@/DarkVeil'
 import { Briefcase, Shield, Code } from 'lucide-react'
 import SpotlightCard from './SportLightCard'
 
 const Experience = () => {
     return (
-        <section id="experience" className="relative flex flex-col w-full" >
+        <section id="experience" className="flex flex-col w-full h-full" >
             <div className="flex flex-col items-center mx-auto py-10 w-full">
                 <div className="mb-12 text-center">
                     <h2 className="mb-4 font-bold text-white text-3xl md:text-4xl">Experience</h2>
