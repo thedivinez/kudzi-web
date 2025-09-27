@@ -19,6 +19,16 @@
   }
 }
 
+* {
+  color-scheme: dark !important;
+}
+
+html {
+  color-scheme: dark !important;
+  background: #000 !important;
+  color: #fff !important;
+}
+
 body {
   background: var(--background);
   color: var(--foreground);

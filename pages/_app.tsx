@@ -1,9 +1,15 @@
 import "@/styles/globals.css";
 import type { AppProps } from "next/app";
 import LiquidEther from "@/components/LiquidEther";
+import { useEffect } from "react";
 
 export default function App({ Component, pageProps }: AppProps) {
-  return <div className="relative flex flex-col w-screen h-screen min-h-full">
+  useEffect(() => {
+    // Force dark theme
+    document.documentElement.classList.add('dark');
+    document.documentElement.style.colorScheme = 'dark';
+  }, []);
+  return <div className="relative flex flex-col bg-black w-screen h-screen min-h-full text-white">
     <LiquidEther
       className="top-0 right-0 bottom-0 left-0 absolute flex w-full h-full"
       colors={['#5227FF', '#FF9FFC', '#B19EEF']}
