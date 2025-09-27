@@ -32,7 +32,7 @@ const HeroSection = () => {
                 </div>
 
                 <div className={`flex flex-col sm:flex-row gap-4 justify-center transform transition-all duration-1000 delay-1000 mt-10`} data-animate id="hero-divs" >
-                    <a href="/assets/CARLINGTON_RESUME_FN_2025.pdf" download>
+                    <a href="/CARLINGTON_RESUME_FN_2025.pdf" download>
                         <div className="flex items-center space-x-1 bg-cyan-600 hover:bg-cyan-700 hover:shadow-cyan-500/25 hover:shadow-lg p-2 px-3 py-2 rounded-md font-medium text-white text-sm hover:scale-105 transition-colors duration-300 transform">
                             <Download className="mr-2 w-4 h-4" />
                             Download Resume

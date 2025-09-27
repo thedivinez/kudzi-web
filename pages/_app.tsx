@@ -3,7 +3,7 @@ import type { AppProps } from "next/app";
 import LiquidEther from "@/components/LiquidEther";
 
 export default function App({ Component, pageProps }: AppProps) {
-  return <div className="relative w-full h-screen min-h-full overflow-auto">
+  return <div className="relative w-full h-screen min-h-full">
     <LiquidEther
       className="top-0 bottom-0 absolute flex w-full h-[100vh]"
       colors={['#5227FF', '#FF9FFC', '#B19EEF']}
