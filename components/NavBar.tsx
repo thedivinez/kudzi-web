@@ -48,9 +48,8 @@ const NavBar = () => {
     return (
         <nav className="top-0 z-50 fixed bg-slate-900/75 backdrop-blur-sm border-slate-700 border-b w-full">
             <div className="flex justify-center space-x-5 mx-auto px-4 sm:px-6 lg:px-8">
-                <div className="flex justify-between items-center space-x-5 py-4">
+                <div className="flex justify-between items-center space-x-5 py-4 w-full">
                     <span className="font-bold text-white text-xl">Kudzai Netsiyanwa</span>
-
                     {/* Desktop Navigation */}
                     <div className="hidden md:flex space-x-8">
                         {navItems.map((item) => {

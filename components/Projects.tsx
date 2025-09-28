@@ -5,7 +5,7 @@ import SpotlightCard from './SportLightCard'
 const Projects = () => {
     return (
         < section id="projects" className="px-4 sm:px-6 lg:px-8 py-16 scroll-mt-10" >
-            <div className="mx-auto max-w-7xl">
+            <div className="mx-auto max-w-6xl container">
                 <div className="mb-12 text-center">
                     <h2 className="mb-4 font-bold text-white text-3xl md:text-4xl">Projects</h2>
                     <p className="text-slate-300 text-lg">Featured cybersecurity and development projects</p>

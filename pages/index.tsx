@@ -11,7 +11,7 @@ import Footer from "@/components/Footer"
 
 export default function Portfolio() {
   return (
-    <div className="top-0 absolute flex flex-col bg-gradient-to-br from-indigo-900/40 via-indigo-700/20 to-slate-900/40 w-full h-full min-h-screen overflow-auto">
+    <div className="absolute inset-0 flex flex-col justify-between bg-gradient-to-br from-indigo-900/40 via-indigo-700/20 to-slate-900/40 w-full h-auto min-h-full overflow-auto">
       <NavBar />
       <HeroSection />
       <Education />

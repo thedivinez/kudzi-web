@@ -3,8 +3,9 @@ import SpotlightCard from './SportLightCard'
 
 const Skills = () => {
     return (
-        <section id="skills" className="flex flex-col mt-10 px-4 sm:px-6 lg:px-8 py-16" >
-            <div className="mx-auto max-w-7xl">
+        <section id="skills" className="flex flex-col mx-auto px-4 sm:px-6 lg:px-8 py-16 max-w-7xl scroll-mt-10" >
+            <div className="mx-auto max-w-6xl container">
+
                 <div className="mb-12 text-center">
                     <h2 className="mb-4 font-bold text-white text-3xl md:text-4xl">Skills</h2>
                     <p className="text-slate-300 text-lg">Technical expertise and core competencies</p>

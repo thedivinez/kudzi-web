@@ -4,15 +4,14 @@ import { Download, MessageCircle } from 'lucide-react'
 
 const HeroSection = () => {
     return (
-        <section id="about" className="mt-15 px-4 sm:px-6 lg:px-8 pt-20 pb-16 scroll-mt-15" >
-            <div className="flex-y space-y-3 mx-auto mt-20 max-w-7xl text-center">
-                <div className='flex flex-col justify-self-center text-left'>
+        <section id="about" className="flex flex-col xl:my-24 mt-10 px-4 sm:px-6 lg:px-8 pt-20 pb-16" >
+            <div className="mx-auto max-w-6xl container">
+
+                <div className='flex flex-col justify-self-center items-center'>
                     <span className='text-xl'>Hello I'm</span>
                     <h1 className={`text-4xl md:text-6xl font-bold text-white mb-4 transform transition-all duration-500 delay-300`} data-animate id="hero-name" >
                         <span className="inline-block animate-pulse delay-1500">Kudzai Netsiyanwa</span>
                     </h1>
-                </div>
-                <div className="mb-6 h-8 text-cyan-400 text-4xl md:text-5xl">
                     <TextType
                         text={[
                             "Cybersecurity Professional",
