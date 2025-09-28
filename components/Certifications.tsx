@@ -12,9 +12,9 @@ const Certifications = () => {
                 </div>
 
                 <div className="gap-8 grid md:grid-cols-2">
-                    {/* Microsoft SC-900 */}
                     <SpotlightCard className={`bg-slate-800/45 border-slate-700 transform transition-all duration-700 delay-100 hover:scale-105 hover:shadow-xl hover:shadow-cyan-500/10 p-4 rounded-2xl flex flex-col gap-4`} data-animate >
-                        <div>
+                        <div className='flex flex-col items-center space-y-5'>
+                            <img src="/certs/security.png" className='bg-gray-600/50 p-3 rounded-full w-24 h-24' alt="" />
                             <div className="flex justify-between items-start">
                                 <div>
                                     <div className="flex items-center mb-2 text-white text-xl">
@@ -49,11 +49,9 @@ const Certifications = () => {
                     </SpotlightCard>
 
                     {/* Microsoft AI and ML */}
-                    <SpotlightCard
-                        className={`bg-slate-800/45 border-slate-700 transform transition-all duration-700 delay-100 hover:scale-105 hover:shadow-xl hover:shadow-cyan-500/10 p-4 rounded-2xl flex flex-col gap-4`}
-                        data-animate
-                    >
-                        <div>
+                    <SpotlightCard className={`bg-slate-800/45 border-slate-700 transform transition-all duration-700 delay-100 hover:scale-105 hover:shadow-xl hover:shadow-cyan-500/10 p-4 rounded-2xl flex flex-col gap-4`} data-animate>
+                        <div className='flex flex-col items-center space-y-5'>
+                            <img src="/certs/microsoft.jpg" className='bg-gray-600/50 p-3 rounded-full w-24 h-24' alt="" />
                             <div className="flex items-center mb-2 text-white text-xl">
                                 <Award className="mr-2 w-5 h-5 text-cyan-400 animate-bounce" />
                                 Microsoft: Fundamentals of AI and Machine Learning
@@ -88,7 +86,8 @@ const Certifications = () => {
                         className={`bg-slate-800/45 border-slate-700 transform transition-all duration-700 delay-100 hover:scale-105 hover:shadow-xl hover:shadow-cyan-500/10 p-4 rounded-2xl flex flex-col gap-4`}
                         data-animate
                     >
-                        <div>
+                        <div className='flex flex-col items-center space-y-5'>
+                            <img src="/certs/codio.png" className='bg-gray-200/75 p-3 rounded-full w-24 h-24' alt="" />
                             <div className="flex items-center mb-2 text-white text-xl">
                                 <Award className="mr-2 w-5 h-5 text-cyan-400 animate-spin" style={{ animationDuration: "2s" }} />
                                 Codio: Understanding ISO Security Standards
@@ -123,7 +122,8 @@ const Certifications = () => {
                         className={`bg-slate-800/45 border-slate-700 transform transition-all duration-700 delay-100 hover:scale-105 hover:shadow-xl hover:shadow-cyan-500/10 p-4 rounded-2xl flex flex-col gap-4`}
                         data-animate
                     >
-                        <div>
+                        <div className='flex flex-col items-center space-y-5'>
+                            <img src="/certs/jhu.png" className='bg-white/70 p-3 rounded-full w-24 h-24' alt="" />
                             <div className="flex items-center mb-2 text-white text-xl">
                                 <Award className="mr-2 w-5 h-5 text-cyan-400 animate-pulse" />
                                 John Hopkins University: IT Support in Healthcare
